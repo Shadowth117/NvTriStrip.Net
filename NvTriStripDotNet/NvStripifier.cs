@@ -82,6 +82,12 @@ namespace NvTriStripDotNet
         /// </remarks>
         public bool ListsOnly { get; set; } = false;
 
+        public PrimitiveGroup[] GenerateStripsReturner(ushort[] indices, bool validate)
+        {
+            GenerateStrips(indices, out var primitiveGroups, validate);
+            return primitiveGroups;
+        }
+
         /// <summary>
         /// Generates strips from the given input indices.
         /// </summary>
