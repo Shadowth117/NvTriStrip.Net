@@ -6,6 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{66B926EE-FF73-42BE-A27E-CBCB333A4C07}</ProjectGuid>
     <OutputType>Library</OutputType>
+    <OutputPath>bin\Debug\</OutputPath>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NvTriStripDotNet</RootNamespace>
     <AssemblyName>NvTriStripDotNet</AssemblyName>
